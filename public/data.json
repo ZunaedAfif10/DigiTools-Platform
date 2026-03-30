@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "Perfect for beginners to create professional resumes quickly.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "20+ templates",
+      "Basic customization",
+      "Export to PDF"
+    ],
+    "icon": "file-text"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced tools to craft job-winning resumes.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF & Word"
+    ],
+    "icon": "award"
+  },
+  {
+    "id": 3,
+    "name": "Career Plus Subscription",
+    "description": "Monthly access to all premium resume features.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited resumes",
+      "Cover letter builder",
+      "Cloud storage"
+    ],
+    "icon": "cloud"
+  },
+  {
+    "id": 4,
+    "name": "Ultimate Career Pack",
+    "description": "All-in-one yearly package for job seekers.",
+    "price": 59.99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "All premium templates",
+      "LinkedIn profile optimizer",
+      "Priority support"
+    ],
+    "icon": "briefcase"
+  },
+  {
+    "id": 5,
+    "name": "Student Resume Pack",
+    "description": "Tailored templates and tools for students.",
+    "price": 4.99,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Student-friendly templates",
+      "Internship-focused content",
+      "Easy editing"
+    ],
+    "icon": "book"
+  },
+  {
+    "id": 6,
+    "name": "Executive Resume Suite",
+    "description": "Premium tools for senior professionals.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Executive templates",
+      "Personal branding tools",
+      "Advanced formatting"
+    ],
+    "icon": "star"
+  },
+  {
+    "id": 7,
+    "name": "Freelancer Toolkit",
+    "description": "Showcase your freelance work with style.",
+    "price": 6.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Portfolio templates",
+      "Client proposal builder",
+      "Export to PDF"
+    ],
+    "icon": "tool"
+  },
+  {
+    "id": 8,
+    "name": "Job Hunter Pro Annual",
+    "description": "Yearly access with exclusive job search tools.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Job tracking dashboard",
+      "Interview preparation guides",
+      "Premium support"
+    ],
+    "icon": "search"
+  }
+]
