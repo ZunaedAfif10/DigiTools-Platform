@@ -7,6 +7,7 @@
     "period": "one-time",
     "tag": "New",
     "tagType": "new",
+    "image": "https://i.ibb.co.com/F4cYdLHV/design-tool.png",
     "features": [
       "20+ templates",
       "Basic customization",
@@ -22,6 +23,7 @@
     "period": "one-time",
     "tag": "Best Seller",
     "tagType": "best-seller",
+    "image": "https://i.ibb.co.com/8FgMG68/operation.png",
     "features": [
       "100+ templates",
       "ATS optimization",
@@ -37,6 +39,7 @@
     "period": "monthly",
     "tag": "Popular",
     "tagType": "popular",
+    "image": "https://i.ibb.co.com/cSHGMr8L/portfolio.png",
     "features": [
       "Unlimited resumes",
       "Cover letter builder",
@@ -52,6 +55,7 @@
     "period": "yearly",
     "tag": "Best Seller",
     "tagType": "best-seller",
+    "image": "https://i.ibb.co.com/cSHGMr8L/portfolio.png",
     "features": [
       "All premium templates",
       "LinkedIn profile optimizer",
@@ -67,6 +71,7 @@
     "period": "one-time",
     "tag": "New",
     "tagType": "new",
+    "image": "https://i.ibb.co.com/8FgMG68/operation.png",
     "features": [
       "Student-friendly templates",
       "Internship-focused content",
@@ -82,6 +87,7 @@
     "period": "one-time",
     "tag": "Popular",
     "tagType": "popular",
+    "image": "https://i.ibb.co.com/F4cYdLHV/design-tool.png",
     "features": [
       "Executive templates",
       "Personal branding tools",
@@ -97,6 +103,7 @@
     "period": "monthly",
     "tag": "Popular",
     "tagType": "popular",
+    "image": "https://i.ibb.co.com/8FgMG68/operation.png",
     "features": [
       "Portfolio templates",
       "Client proposal builder",
@@ -112,6 +119,7 @@
     "period": "yearly",
     "tag": "Best Seller",
     "tagType": "best-seller",
+    "image": "https://i.ibb.co.com/F4cYdLHV/design-tool.png",
     "features": [
       "Job tracking dashboard",
       "Interview preparation guides",
