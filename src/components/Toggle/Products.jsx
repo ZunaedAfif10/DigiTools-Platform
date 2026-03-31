@@ -1,16 +1,13 @@
 import React from 'react'
 import { Product } from './Product.jsx'
 
-export const Products = ({products}) => {
+export const Products = ({products , cartItem , setCartItem}) => {
     // console.log(products);
     return (
-        <div className='container grid grid-cols-3 mx-auto mt-10'>
+        <div className='container grid lg:grid-cols-3 mx-auto mt-10'>
         {
         products.map(product=>{
-            console.log(product);
-            return <div>
-            <Product product={product} key={product.id}></Product>    
-        </div>
+            return <Product product={product} key={product.id} cartItem={cartItem} setCartItem={setCartItem}></Product>    
         })
         }
         </div>

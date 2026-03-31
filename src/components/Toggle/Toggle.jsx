@@ -5,6 +5,7 @@ import { Cart } from './Cart';
 export const Toggle = ({promiseProduct}) => {
   const products = use(promiseProduct);
   const [selectedType,setSelectedType] = useState('products');
+  const [cartItem,setCartItem] = useState([]);
   return (
     <div className='mt-32 text-center'>
       <h1 className='font-extrabold text-5xl'>Premium Digital Tools</h1>
@@ -13,7 +14,7 @@ export const Toggle = ({promiseProduct}) => {
         <button onClick={()=>setSelectedType('products')} className={`btn ${selectedType=== 'products' ? 'bg-[#4F39F6] text-white' : 'bg-white text-black border-0'}  rounded-3xl px-5 py-6`}>Products</button>
         <button onClick={()=>setSelectedType('cart')} className={`btn ${selectedType=== 'cart' ? 'bg-[#4F39F6] text-white' : 'bg-white text-black border-0'}  rounded-3xl px-5 py-6`}>Cart(2)</button>
       </div>
-      {selectedType==='products' ? <Products products={products}></Products> : <Cart></Cart>}
+      {selectedType==='products' ? <Products products={products} cartItem={cartItem} setCartItem={setCartItem}></Products> : <Cart products={products} cartItem={cartItem} setCartItem={setCartItem}></Cart>}
     </div>
   )
 }

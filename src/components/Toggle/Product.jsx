@@ -2,7 +2,11 @@ import React from 'react'
 import wri from '../../assets/products/writing.png'
 import { SiTicktick } from 'react-icons/si'
 import { Feature } from '../ui/Feature';
-export const Product = ({product}) => {
+export const Product = ({product ,cartItem , setCartItem}) => {
+  const buyNow = ()=>{
+    // console.log('iem',product);
+    setCartItem([...cartItem,product]);
+  }
   // console.log(product.tag);
   return (
     <div className="card w-96 bg-base-100 shadow-sm">
@@ -24,7 +28,7 @@ export const Product = ({product}) => {
           </li>
         </ul>
         <div className="mt-3">
-          <button className="btn btn-primary btn-block rounded-3xl py-6">Buy Now</button>
+          <button onClick={()=>buyNow()} className="btn btn-primary btn-block rounded-3xl py-6">Buy Now</button>
         </div>
       </div>
     </div>

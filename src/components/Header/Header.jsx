@@ -6,7 +6,7 @@ import banner from '../../assets/banner.png'
 export const Header = () => {
   return (
     <div>
-        <div className='lg:max-w-[65%] mx-auto flex justify-between'>
+        <div className='lg:max-w-[65%] mx-auto lg:flex justify-between'>
             <div>
                 <div className='flex bg-[#E1E7FF] inline-flex py-2 px-4 rounded-3xl'>
                     <img src={dot} className='mr-1' width={23} alt="" />
