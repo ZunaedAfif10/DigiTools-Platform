@@ -1,8 +1,12 @@
 import React from 'react'
 
-export const Item = ({ item, cartItem, setCartItem ,total}) => {
+export const Item = ({ item, cartItem, setCartItem}) => {
     console.log(item);
-    console.log(total); 
+    const deleteItem = ()=>{
+        const updatedCart = cartItem.filter(ci => ci !== item);
+        setCartItem(updatedCart);
+    }
+    // console.log(total); 
     return (
         <div className='mt-6'>
             <div className='p-6 bg-[#F9FAFC] mb-4 rounded-xl flex justify-between'>
@@ -13,7 +17,7 @@ export const Item = ({ item, cartItem, setCartItem ,total}) => {
                         <p className='font-medium text-[1.1rem] mt-2 text-gray-500'>${item.price}</p>
                     </div>
                 </div>
-                    <button className='font-medium text-[1.1rem] mt-2 text-[#FF3980]'>Remove</button>
+                    <button onClick={deleteItem} className='font-medium text-[1.1rem] mt-2 text-[#FF3980]'>Remove</button>
             </div>
         </div>
     )
