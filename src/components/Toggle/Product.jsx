@@ -17,7 +17,7 @@ export const Product = ({product ,cartItem , setCartItem}) => {
   }
   // console.log(product.tag);
   return (
-    <div className="card w-96 bg-base-100 shadow-sm">
+    <div className="card bg-base-100 shadow-sm">
       <div className="card-body relative">
         <img className='border border-gray-200 rounded-full p-2' src={product.image} height={50} width={50} alt="" />
         <span className={`badge badge-md rounded-4xl absolute top-2 right-2 ${product.tag === 'New' ? 'badge-accent' : product.tag === 'Popular' ? 'badge-info' : 'badge-warning'}`}>{product.tag}</span>

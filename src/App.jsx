@@ -5,6 +5,7 @@ import { Info } from './components/Info/Info'
 import { Navbar } from './components/Navbar/Navbar'
 import { Toggle } from './components/Toggle/Toggle'
 import { ToastContainer } from 'react-toastify'
+import { Getstarted } from './components/Getstarted/Getstarted'
 
 const fetchProduct = async()=>{
   const res = await fetch('/data.json');
@@ -22,6 +23,7 @@ function App() {
         <Toggle promiseProduct={promiseProduct}></Toggle>
       </Suspense>
       <ToastContainer />
+      <Getstarted></Getstarted>
     </>
   )
 }

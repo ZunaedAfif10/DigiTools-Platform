@@ -6,9 +6,9 @@ import banner from '../../assets/banner.png'
 export const Header = () => {
   return (
     <div>
-        <div className='lg:max-w-[65%] mx-auto lg:flex justify-between'>
+        <div className='max-[90%] lg:max-w-[65%] mx-auto lg:flex justify-between lg:text-left text-center'>
             <div>
-                <div className='flex bg-[#E1E7FF] inline-flex py-2 px-4 rounded-3xl'>
+                <div className='lg:mt-0 mt-7 inline-flex bg-[#E1E7FF] py-2 px-4 rounded-3xl'>
                     <img src={dot} className='mr-1' width={23} alt="" />
                     <h1 className='text-[#4F39F6]'>New: AI-Powered Tools Available</h1>
                 </div>
@@ -20,7 +20,7 @@ export const Header = () => {
                 </div>
             </div>
             <div>
-                <img src={banner} alt="" className='mb-24'/>
+                <img src={banner} alt="" className='mx-auto lg:max-w-full lg:mt-0 mt-7 max-w-[90%] mb-24'/>
             </div>
         </div>
     </div>

@@ -7,7 +7,7 @@ export const Toggle = ({promiseProduct}) => {
   const [selectedType,setSelectedType] = useState('products');
   const [cartItem,setCartItem] = useState([]);
   return (
-    <div className='mt-32 text-center'>
+    <div className='mt-32 mb-32 text-center'>
       <h1 className='font-extrabold text-5xl'>Premium Digital Tools</h1>
       <p className='text-gray-500 py-5'>Choose from our curated collection of premium digital products designed <br />to boost your productivity and creativity.</p>
       <div className='border inline-block border-gray-200 rounded-4xl p-0.5'>
