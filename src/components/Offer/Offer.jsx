@@ -3,9 +3,9 @@ import { SiTicktick } from 'react-icons/si'
 
 export const Offer = () => {
     return (
-        <div className='mt-32 text-center'>
-            <h1 className='font-extrabold text-5xl pt-32'>Get Started in 3 Steps</h1>
-            <p className='text-gray-500 py-5'>Start using premium digital tools in minutes, not hours.</p>
+        <div className='lg:my-32 my-6 text-center lg:max-w-full max-w-[90%] mx-auto'>
+            <h1 className='font-extrabold text-5xl '>Simple, Transparent Pricing</h1>
+            <p className='text-gray-500 py-5'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             <div className="card container grid lg:grid-cols-3 gap-8 mx-auto bg-base-100 mt-8">
                 <div className="card-body border border-gray-100 bg-[#F9FAFC] shadow-sm rounded-xl">
                     <div className="text-left">
@@ -39,7 +39,7 @@ export const Offer = () => {
                             </div>
                         </div>
                     </ul>
-                    <div className="mt-28">
+                    <div className="lg:mt-28 mt-8">
                         <button className="btn btn-primary btn-block btn-lg rounded-3xl font-normal ">Get Started Free</button>
                     </div>
                 </div>
@@ -89,7 +89,7 @@ export const Offer = () => {
                         </div>
                     </ul>
                     <div className="mt-6">
-                        <button className="btn btn-primary bg-white text-[#4F39F6] btn-block btn-lg rounded-3xl font-bold">Get Started Free</button>
+                        <button className="btn btn-primary bg-white text-[#4F39F6] btn-block btn-lg rounded-3xl font-bold">Start Pro Trial</button>
                     </div>
                 </div>
                 <div className="card-body border border-gray-100 bg-[#F9FAFC] shadow-sm rounded-xl">
@@ -137,7 +137,7 @@ export const Offer = () => {
                         </div>
                     </ul>
                     <div className="mt-6">
-                        <button className="btn btn-primary btn-block btn-lg rounded-3xl font-normal ">Get Started Free</button>
+                        <button className="btn btn-primary btn-block btn-lg rounded-3xl font-normal ">Contact Sales</button>
                     </div>
                 </div>
             </div>

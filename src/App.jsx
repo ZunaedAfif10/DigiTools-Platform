@@ -7,6 +7,8 @@ import { Toggle } from './components/Toggle/Toggle'
 import { ToastContainer } from 'react-toastify'
 import { Getstarted } from './components/Getstarted/Getstarted'
 import { Offer } from './components/Offer/Offer'
+import { Moreinfo } from './components/Moreinfo/Moreinfo'
+import { Footer } from './components/Footer/Footer'
 
 const fetchProduct = async () => {
   const res = await fetch('/data.json');
@@ -30,6 +32,8 @@ function App() {
       {selectedType === 'products' ? <>
         <Getstarted></Getstarted>
         <Offer></Offer>
+        <Moreinfo></Moreinfo>
+        <Footer></Footer>
       </> : ''}
     </>
   )

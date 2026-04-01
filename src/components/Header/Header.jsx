@@ -20,7 +20,7 @@ export const Header = () => {
                 </div>
             </div>
             <div>
-                <img src={banner} alt="" className='mx-auto lg:max-w-full lg:mt-0 mt-7 max-w-[90%] mb-24'/>
+                <img src={banner} alt="" className='mx-auto lg:max-w-full lg:mt-0 mt-7 max-w-[90%] mb-6 lg:mb-24'/>
             </div>
         </div>
     </div>

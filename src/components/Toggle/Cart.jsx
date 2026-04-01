@@ -9,8 +9,8 @@ export const Cart = ({ products, cartItem, setCartItem }) => {
   }
   let total = 0;
   return (
-    <div className='container mx-auto mt-10 border border-gray-200 rounded-xl text-left p-10 font-bold text-2xl mb-10'>
-      <h2>Your Cart</h2>
+    <div className='container mx-auto lg:mt-10 mt-6 border border-gray-200 rounded-xl text-left px-3 py-5 lg:p-10 font-bold text-2xl mb-10'>
+      <h2 className='lg:text-left text-center'>Your Cart</h2>
       {cartItem.length === 0 ?
       <>
       <div className='p-20'>

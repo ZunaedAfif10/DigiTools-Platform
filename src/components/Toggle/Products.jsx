@@ -4,7 +4,7 @@ import { Product } from './Product.jsx'
 export const Products = ({products , cartItem , setCartItem}) => {
     // console.log(products);
     return (
-        <div className='container grid lg:grid-cols-3 mx-auto mt-10 gap-8'>
+        <div className='container grid lg:grid-cols-3 mx-auto lg:mt-10 mt-6 gap-8'>
         {
         products.map(product=>{
             return <Product product={product} key={product.id} cartItem={cartItem} setCartItem={setCartItem}></Product>    
