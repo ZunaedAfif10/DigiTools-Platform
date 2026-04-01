@@ -1,9 +1,11 @@
 import React from 'react'
+import { toast } from 'react-toastify';
 
 export const Item = ({ item, cartItem, setCartItem}) => {
     // console.log(item);
     const deleteItem = ()=>{
         const updatedCart = cartItem.filter(ci => ci !== item);
+        toast.success('Item removed');
         setCartItem(updatedCart);
     }
     // console.log(total); 

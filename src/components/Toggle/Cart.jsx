@@ -1,10 +1,12 @@
 import React from 'react'
 import { Item } from '../ui/Item';
 import shop from '../../assets/products/shop1.jpg'
+import { toast } from 'react-toastify';
 
 export const Cart = ({ products, cartItem, setCartItem }) => {
   // console.log(cartItem);
   const deleteAll = () => {
+    toast.success('Items Checked out');
     setCartItem([]);
   }
   let total = 0;
