@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const Item = ({ item, cartItem, setCartItem}) => {
-    console.log(item);
+    // console.log(item);
     const deleteItem = ()=>{
         const updatedCart = cartItem.filter(ci => ci !== item);
         setCartItem(updatedCart);

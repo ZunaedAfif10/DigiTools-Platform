@@ -2,9 +2,9 @@ import React, { use, useState } from 'react'
 import { Products } from './Products';
 import { Cart } from './Cart';
 
-export const Toggle = ({promiseProduct}) => {
+export const Toggle = ({promiseProduct , selectedType ,setSelectedType}) => {
   const products = use(promiseProduct);
-  const [selectedType,setSelectedType] = useState('products');
+//  console.log(selectedType);
   const [cartItem,setCartItem] = useState([]);
   return (
     <div className='mt-32 mb-32 text-center'>
