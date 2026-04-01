@@ -1,5 +1,6 @@
 import React from 'react'
 import { Item } from '../ui/Item';
+import shop from '../../assets/products/shop1.jpg'
 
 export const Cart = ({ products, cartItem, setCartItem }) => {
   // console.log(cartItem);
@@ -8,9 +9,17 @@ export const Cart = ({ products, cartItem, setCartItem }) => {
   }
   let total = 0;
   return (
-    <div className='container mx-auto mt-10 border border-gray-200 rounded-xl text-left p-10 font-bold text-2xl'>
+    <div className='container mx-auto mt-10 border border-gray-200 rounded-xl text-left p-10 font-bold text-2xl mb-10'>
       <h2>Your Cart</h2>
-      <div>
+      {cartItem.length === 0 ?
+      <>
+      <div className='p-20'>
+        <img src={shop} height={200} width={200} className='mx-auto' alt="" />
+        <p className='text-center'>Your cart is empty</p>
+      </div>
+      </> :
+      <>
+        <div>
         {
           cartItem.map(item => {
             total += item.price
@@ -23,6 +32,7 @@ export const Cart = ({ products, cartItem, setCartItem }) => {
         <p>${total.toFixed(2)}</p>
       </div>
       <button onClick={deleteAll} className="btn btn-primary btn-block rounded-3xl py-6 text-xl font-bold mt-5">Proceed to Checkout</button>
+      </>}
     </div>
   )
 }

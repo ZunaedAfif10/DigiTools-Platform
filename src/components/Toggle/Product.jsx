@@ -2,9 +2,17 @@ import React from 'react'
 import wri from '../../assets/products/writing.png'
 import { SiTicktick } from 'react-icons/si'
 import { Feature } from '../ui/Feature';
+import { toast } from 'react-toastify';
 export const Product = ({product ,cartItem , setCartItem}) => {
   const buyNow = ()=>{
     // console.log('iem',product);
+    const isFound = cartItem.find(it=>it.id === product.id);
+    if(isFound)
+    {
+      toast.error('Item already in the cart');
+      return;
+    }
+    toast.success('Item succesfully added');
     setCartItem([...cartItem,product]);
   }
   // console.log(product.tag);

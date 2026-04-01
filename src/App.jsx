@@ -4,6 +4,7 @@ import { Header } from './components/Header/Header'
 import { Info } from './components/Info/Info'
 import { Navbar } from './components/Navbar/Navbar'
 import { Toggle } from './components/Toggle/Toggle'
+import { ToastContainer } from 'react-toastify'
 
 const fetchProduct = async()=>{
   const res = await fetch('/data.json');
@@ -20,6 +21,7 @@ function App() {
       <Suspense fallback={<span className="loading loading-spinner loading-lg"></span>}>
         <Toggle promiseProduct={promiseProduct}></Toggle>
       </Suspense>
+      <ToastContainer />
     </>
   )
 }
