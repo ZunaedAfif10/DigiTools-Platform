@@ -1,16 +1,20 @@
-# React + Vite
+Project Name : DigiTools-Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Description : DigiTools Platform is a modern web application that provides a collection of useful digital tools in one place. It is designed with a clean UI and smooth user experience to help users perform tasks efficiently and quickly.
 
-Currently, two official plugins are available:
+Technologies Used :
+1.React.js
+2.Tailwind CSS
+3.DaisyUI
+4.Javascript
+5.Netlify
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features :
+1.Multiple Digital Tools:
+Access various tools in one platform, reducing the need to switch between different websites.
 
-## React Compiler
+2.Fast & Responsive UI:
+Built with Tailwind CSS and DaisyUI for a smooth and responsive experience across all devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3.Live & Accessible:
+Deployed on Netlify, making the application easily accessible from anywhere.
