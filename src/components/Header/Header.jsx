@@ -12,7 +12,7 @@ export const Header = () => {
                     <img src={dot} className='mr-1' width={23} alt="" />
                     <h1 className='text-[#4F39F6]'>New: AI-Powered Tools Available</h1>
                 </div>
-                <h1 className='text-7xl font-extrabold mb-4 mt-6 leading-20'>Supercharge Your <br /> Digital Workflow</h1>
+                <h1 className='text-4xl lg:text-7xl font-extrabold mb-4 mt-6 lg:leading-20 leading-12'>Supercharge Your <br /> Digital Workflow</h1>
                 <p className='leading-8 text-gray-500'>Access premium AI tools, design assets, templates, and productivity <br />software—all in one place. Start creating faster today. <br />Explore Products</p>
                 <div className='my-8'>
                     <button className='btn btn-primary mr-2.5 rounded-3xl'>Explore Products</button>

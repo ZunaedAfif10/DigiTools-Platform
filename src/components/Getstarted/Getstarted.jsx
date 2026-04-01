@@ -6,8 +6,8 @@ import rocket from '../../assets/rocket.png'
 export const Getstarted = () => {
   return (
     <div className='lg:mt-32 pb-6 lg:pb-32 text-center bg-[#F9FAFC]'>
-        <h1 className='font-extrabold text-5xl lg:pt-32 py-6'>Get Started in 3 Steps</h1>
-        <p className='text-gray-500 py-5'>Start using premium digital tools in minutes, not hours.</p>
+        <h1 className='font-extrabold text-5xl lg:pt-32 py-6 lg:max-w-full max-w-[90%] mx-auto'>Get Started in 3 Steps</h1>
+        <p className='text-gray-500 py-5 lg:max-w-full max-w-[90%] mx-auto'>Start using premium digital tools in minutes, not hours.</p>
         <div className='container mx-auto grid lg:grid-cols-3 gap-8 pt-3.5'>
             <div className='rounded-xl relative bg-white p-20 space-y-6 lg:max-w-full max-w-[90%] mx-auto'>
                 <p className='absolute top-5 right-5 rounded-full bg-blue-700 px-4 py-3 text-white'>01</p>
