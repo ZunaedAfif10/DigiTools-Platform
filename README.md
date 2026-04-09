@@ -115,13 +115,6 @@ digitools-platform/
 
 ---
 
-## ✅ Why this matters
-- Makes your project look **serious & developer-ready**
-- Helps others **run your project easily**
-- Shows you understand **real-world workflow**
-
----
-
 ## 📸 Screenshots  
 
 <p align="center">
