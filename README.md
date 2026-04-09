@@ -81,7 +81,44 @@ Developed using React and Tailwind CSS to ensure maintainability and modern deve
 
 Follow these steps to run the project locally on your machine:
 
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/your-username/digitools-platform.git
+```
 
+###2️⃣ Navigate to Project Directory
+```bash
+cd digitools-platform
+```
+
+###3️⃣ Install Dependencies
+```bash
+npm install
+```
+
+###4️⃣ Start Development Server
+```bash
+npm run dev
+```
+
+##🚀 Build for Production
+```bash
+digitools-platform/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│── public/
+│── package.json
+│── README.md
+```
+
+---
+
+## ✅ Why this matters
+- Makes your project look **serious & developer-ready**
+- Helps others **run your project easily**
+- Shows you understand **real-world workflow**
 
 ---
 
