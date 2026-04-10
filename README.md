@@ -117,9 +117,7 @@ digitools-platform/
 
 ## 📸 Screenshots  
 
-<p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Digitools+Platform+Preview" alt="Project Preview" width="800"/>
-</p>
+<img width="1385" height="768" alt="Gemini_Generated_Image_e3up5e3up5e3up5e (1)" src="https://github.com/user-attachments/assets/b1cb9d5c-f0e0-43cc-a125-52de4a9adcee" />
 
 ---
 
